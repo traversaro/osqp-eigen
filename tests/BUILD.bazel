@@ -1,0 +1,60 @@
+cc_test(
+    name = "SparseMatrixTest",
+    srcs = ["SparseMatrixTest.cpp"],
+    deps = [
+        "//:OsqpEigen",
+        "@catch2",
+        "@catch2//:catch2_main",
+        "@eigen//:eigen",
+        "@osqp//:osqp",
+    ],
+)
+
+#cc_test(
+#    name = "QPTest",
+#    srcs = ["QPTest.cpp"],
+#    deps = [
+#        "//:OsqpEigen",
+#        "@catch2",
+#        "@catch2//:catch2_main",
+#        "@eigen//:eigen",
+#        "@osqp//:osqp",
+#    ],
+#)
+#
+#cc_test(
+#    name = "UpdateMatricesTest",
+#    srcs = ["UpdateMatricesTest.cpp"],
+#    deps = [
+#        "//:OsqpEigen",
+#        "@catch2",
+#        "@catch2//:catch2_main",
+#        "@eigen//:eigen",
+#        "@osqp//:osqp",
+#    ],
+#)
+#
+#cc_test(
+#    name = "MPCTest",
+#    srcs = ["MPCTest.cpp"],
+#    deps = [
+#        "//:OsqpEigen",
+#        "@catch2",
+#        "@catch2//:catch2_main",
+#        "@eigen//:eigen",
+#        "@osqp//:osqp",
+#    ],
+#)
+#
+#cc_test(
+#    name = "MPCUpdateMatricesTest",
+#    srcs = ["MPCUpdateMatricesTest.cpp"],
+#    deps = [
+#        "//:OsqpEigen",
+#        "@catch2",
+#        "@catch2//:catch2_main",
+#        "@eigen//:eigen",
+#        "@osqp//:osqp",
+#    ],
+#)
+#

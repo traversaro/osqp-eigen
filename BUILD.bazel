@@ -1,0 +1,11 @@
+cc_library(
+    name = "OsqpEigen",
+    srcs = glob(["src/**/*.cpp"]),
+    hdrs = glob(["include/**/*.h", "include/**/*.hpp", "include/**/*.tpp"]),
+    includes = ["include"],
+    deps = [
+        "@eigen//:eigen",
+        "@osqp//:osqp",
+    ],
+    visibility = ["//visibility:public"],
+)

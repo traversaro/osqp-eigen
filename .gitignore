@@ -13,3 +13,7 @@ tramp
 *.user
 .build
 .pixi
+
+#bazel
+/bazel-*
+
