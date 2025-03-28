@@ -54,6 +54,8 @@ libosqp = "*"
 eigen = "*"
 ycm-cmake-modules = "*"
 catch2 = "*"
+
+[target.win.dependencies]
 vc = { version = "*", build = "*_24" }
 
 [target.linux.dependencies]
