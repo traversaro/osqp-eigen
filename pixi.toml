@@ -54,6 +54,7 @@ libosqp = "*"
 eigen = "*"
 ycm-cmake-modules = "*"
 catch2 = "*"
+vc = { version = "*", build = "*_24" }
 
 [target.linux.dependencies]
 valgrind = "*"
