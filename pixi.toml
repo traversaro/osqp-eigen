@@ -57,6 +57,7 @@ catch2 = "*"
 
 [target.win.dependencies]
 vc = { version = "*", build = "*_24" }
+vs2019_win-64 = { version = "*", build = "*_24" }
 
 [target.linux.dependencies]
 valgrind = "*"
